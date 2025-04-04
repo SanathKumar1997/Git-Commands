@@ -68,4 +68,13 @@ change an existing file path and stage the move
 git log --stat -M
 show all commit logs with indication of any paths that moved
 
+REWRITE HISTORY
+Rewriting branches, updating commits and clearing history
+
+git rebase [branch]
+apply any commits of current branch ahead of specified one
+
+git reset --hard [commit]
+clear staging area, rewrite working tree from specified commit
+
 
